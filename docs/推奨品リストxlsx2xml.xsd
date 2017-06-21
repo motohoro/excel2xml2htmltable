@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="lists">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="entry" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="entry">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="先発商品名"/>
+        <xsd:element ref="値段"/>
+        <xsd:element ref="G後発商品名"/>
+        <xsd:element ref="G値段"/>
+        <xsd:element ref="Gコード"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="先発商品名" type="xsd:string"/>
+  <xsd:element name="値段" type="xsd:string"/>
+  <xsd:element name="G後発商品名" type="xsd:string"/>
+  <xsd:element name="G値段" type="xsd:string"/>
+  <xsd:element name="Gコード" type="xsd:string"/>
+</xsd:schema>
