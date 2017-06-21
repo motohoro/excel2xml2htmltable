@@ -1,4 +1,4 @@
-xml2htmltable
+excel2xml2htmltable
 =======================
 
 （excelの表から作った）xmlをhtmlのテーブルにする手順
@@ -7,6 +7,10 @@ xml2htmltable
 xsltを使ってxmlをhtmlのtableで表示する。
 
 このやり方だと、excelの表に影響与えずhtmlのtableに表示する列や体裁を変えられる事が便利
+
+## Demo
+
+https://motohoro.github.io/excel2xml2htmltable/result.xml
 
 ## 参考
 
